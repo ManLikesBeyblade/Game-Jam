@@ -3,8 +3,8 @@
 
 _ver += 30;
 
-if (_ver < 20) {
-    _ver = 20;
-} else if (_ver != 20) {
+if (_ver < 12) {
+    _ver = 12;
+} else if (_ver != 12) {
     alarm[0] = 15;
 }
