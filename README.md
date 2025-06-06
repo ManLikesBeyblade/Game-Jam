@@ -1,12 +1,12 @@
 # Game-Jam
 
-jamy deavel
+jammy devil
 
 -------------------------------------
 gameplay
 -------------------------------------
 combat-player
-  -sord swing (damage)
+  -sword swing (damage)
   -throwing knifes (parry/stun)
   -dash
 
@@ -19,7 +19,7 @@ E1
 E2
   -range
     -normal (damage)
-    -explosive (nockback)
+    -explosive (knockback)
 
 E3
   -tank
@@ -28,29 +28,29 @@ E3
 
 wiz
   -fire ball
-  -lighting
-  -lazer (like gronk)
+  -lightning
+  -laser (like gronk)
 
 princess
-qhase 1
+phase 1
   - rapier
       -lunge
       -swing
-      -falling sords
+      -falling swords
 
-qhase 2
--magic sord (glow)
+phase 2
+-magic sword (glow)
     -lunge
     -swing
-    -falling sords of reveling light
-    -clock lazer
+    -falling swords of revealing light
+    -clock laser
    
 
 
 -------------------------------------
 story
 -------------------------------------
-save prinsess from wiz. twist wiz good princess bad.
+save princess from wiz. twist wiz good princess bad.
 
 stage 1)
 tutorial
@@ -58,11 +58,11 @@ easy
 
 stage 2)
 normal level
-miny boss at end
+mini boss at end
 
 stage 3)
 hard
-wiz bass fight
+wiz boss fight
 
 stage 4)
 very hard
