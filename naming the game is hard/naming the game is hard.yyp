@@ -48,6 +48,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"tutorial","path":"rooms/tutorial/tutorial.yy",},},
     {"id":{"name":"bar_sprite","path":"sprites/bar_sprite/bar_sprite.yy",},},
+    {"id":{"name":"e1","path":"sprites/e1/e1.yy",},},
     {"id":{"name":"skyBackground","path":"sprites/skyBackground/skyBackground.yy",},},
     {"id":{"name":"temp_button","path":"sprites/temp_button/temp_button.yy",},},
     {"id":{"name":"temp_player_stand","path":"sprites/temp_player_stand/temp_player_stand.yy",},},
