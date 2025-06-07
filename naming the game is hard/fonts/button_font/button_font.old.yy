@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"button_fant",
+  "%Name":"button_font",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":18,
@@ -206,7 +206,7 @@
   "last":0,
   "lineHeight":23,
   "maintainGms1Font":false,
-  "name":"button_fant",
+  "name":"button_font",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
@@ -223,10 +223,7 @@
   "sdfSpread":8,
   "size":15.0,
   "styleName":"Regular",
-  "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
-  },
+  "textureGroupId":null,
   "TTFName":"",
   "usesSDF":false,
 }

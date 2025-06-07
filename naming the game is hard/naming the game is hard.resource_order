@@ -6,6 +6,7 @@
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"enemy","order":3,"path":"folders/Objects/enemy.yy",},
+    {"name":"menu","order":4,"path":"folders/Objects/menu.yy",},
     {"name":"player","order":2,"path":"folders/Objects/player.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
