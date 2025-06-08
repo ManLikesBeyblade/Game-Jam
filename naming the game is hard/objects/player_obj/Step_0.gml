@@ -1,14 +1,30 @@
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 
+var on_ground = place_meeting(x, y+1, tilemap);
 
-if (keyboard_check_pressed(vk_space) && (place_meeting(x, y+10, tilemap) || double_jumps >= 1)) {
-    _ver = -150;
+// gravity intensity
+_gravity += 3;
+
+if (keyboard_check_pressed(vk_space) && on_ground) {
+    // when on ground can jump
+    _gravity = -100;
+} else if (keyboard_check_pressed(vk_space) && double_jumps == 1) {
+    // when in air can jump once
+    _gravity = -100;
     double_jumps -= 1;
-    alarm[0] = 20;
-}
-
-move_and_collide(_hor * move_speed, _ver, tilemap, undefined, undefined, undefined, move_speed, move_speed);
-
-if (place_meeting(x, y+10, tilemap)) {
+} else if (on_ground) {
+    // when on ground reset gravity + jumps
     double_jumps = 1;
+    _gravity = 1;
 }
+
+if (_gravity>= 20 && place_meeting(x, y+4, tilemap)) {
+    _gravity = 4;
+}
+
+if (_gravity >= 200) {
+    _gravity = 200;
+}
+
+
+move_and_collide(_hor * move_speed, _gravity * move_speed, tilemap, undefined, undefined, undefined, move_speed, move_speed);
