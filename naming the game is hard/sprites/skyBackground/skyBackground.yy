@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"background",
-    "path":"folders/Sprites/background.yy",
+    "path":"folders/Tile Sets/background.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
