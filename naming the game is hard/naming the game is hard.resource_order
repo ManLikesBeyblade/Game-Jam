@@ -16,12 +16,12 @@
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
-    {"name":"background","order":1,"path":"folders/Tile Sets/background.yy",},
     {"name":"enemy","order":7,"path":"folders/Sprites/enemy.yy",},
     {"name":"GUI","order":8,"path":"folders/Sprites/GUI.yy",},
     {"name":"player","order":6,"path":"folders/Sprites/player.yy",},
     {"name":"tiles","order":9,"path":"folders/Sprites/tiles.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
+    {"name":"background","order":1,"path":"folders/Tile Sets/background.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
