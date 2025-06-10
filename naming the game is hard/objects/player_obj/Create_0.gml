@@ -7,3 +7,4 @@ _gravity = 1;
 facing = 1;
 tilemap = layer_tilemap_get_id("platform");
 double_jumps = 1;
+dash = 0;
