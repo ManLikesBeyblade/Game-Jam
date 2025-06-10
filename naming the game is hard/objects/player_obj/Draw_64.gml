@@ -3,7 +3,7 @@ var _dy = 16;
 var _barw = 256;
 var _barh = 70;
 
-draw_set_font(button_fant);
+draw_set_font(button_font);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
