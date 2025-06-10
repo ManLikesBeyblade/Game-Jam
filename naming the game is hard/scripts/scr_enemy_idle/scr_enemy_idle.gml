@@ -17,7 +17,6 @@ function archer_idle() {
         // set state to trig
         state = states.trig;
     }
-    else show_debug_message("0");
     
 };
 
