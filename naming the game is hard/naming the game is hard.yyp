@@ -44,6 +44,8 @@
   "name":"naming the game is hard",
   "resources":[
     {"id":{"name":"button_font","path":"fonts/button_font/button_font.yy",},},
+    {"id":{"name":"atk_1","path":"objects/atk_1/atk_1.yy",},},
+    {"id":{"name":"parant_attack","path":"objects/parant_attack/parant_attack.yy",},},
     {"id":{"name":"archer_obj","path":"objects/archer_obj/archer_obj.yy",},},
     {"id":{"name":"player_obj","path":"objects/player_obj/player_obj.yy",},},
     {"id":{"name":"start_button","path":"objects/start_button/start_button.yy",},},

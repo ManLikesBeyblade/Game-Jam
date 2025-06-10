@@ -27,4 +27,20 @@ if (_gravity >= 200) {
 }
 
 
+
+if (dash == 1) {
+    _hor = facing;
+    _gravity = 0;
+}
+if (keyboard_check_pressed(vk_lshift)) {
+    dash = 1;
+    move_speed = 8;
+    alarm = 13;
+}
+
+
+
 move_and_collide(_hor * move_speed, _gravity * move_speed, tilemap, undefined, undefined, undefined, move_speed, move_speed);
+if (_hor != 0) {
+    facing = _hor;
+}
